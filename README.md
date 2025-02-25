@@ -45,7 +45,7 @@
     - HomePage.jsx
     - AboutPage.jsx
     - MealsPage.jsx
-    - MealDetailsPage.jsx
+    - MealsDetailsPage.jsx
   - data
     - MealsData.js
   - utilities(für Helper-Funktionen)
