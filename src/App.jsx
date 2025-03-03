@@ -17,6 +17,8 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/meals" element={<MealsPage />} />
           {/* TODO- Route mit Parameter-Einstellung */}
+          <Route path="/meals/:id" element={<MealsDetailPage />} />
+          {/* Name nach : frei wählbar*/}
           {/* Wildcard sign (*) */}
         </Route>
         <Route path="*" element={<NotFoundPage />} />
